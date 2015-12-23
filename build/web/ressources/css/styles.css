@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+    padding: 9px;
+    color: gray;
+}
+header {
+    background-image: url("../img/nussberg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px gray;
+}
+
+html {
+    background-color: #eeffff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover, .title {
+    color:white;
+    text-shadow: 0 0 10px white,0 0 20px white;
+}
+
+.flag {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.flag:hover {
+    box-shadow: 5px 5px 9px black;
+}
+
+input:not([type='image']), textarea {
+    width: 200px;
+}

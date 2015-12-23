@@ -1,0 +1,14 @@
+<%@page import="java.time.LocalDateTime"%>
+
+<br>
+<br>
+
+<footer>
+            <%
+                out.println(LocalDateTime.now().toString() + "<br>");
+            %>
+            
+            Copyright 2015 by Benjamin Seitz
+        </footer>
+    </body>
+</html>
